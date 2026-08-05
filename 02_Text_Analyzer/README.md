@@ -45,4 +45,4 @@ python text_analyzer.py
 
 ## Screenshot
 
-![Text Analyzer Demo](Text Analyzer.png)
+![Text Analyzer Demo](text_analyzer.png)
