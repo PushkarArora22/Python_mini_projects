@@ -23,4 +23,4 @@ python calculator.py
 ```
 ## Demo
 
-![Calculator Demo](Calculator_demo.png)
+![Calculator Demo](calculator-demo.png)
