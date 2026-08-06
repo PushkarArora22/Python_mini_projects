@@ -58,7 +58,6 @@ Enter marks in Math: 90
 Enter marks in Science: 85
 Enter marks in English: 78
 
-----------------------------
 
 Student: Pushkar
 Math: 90
