@@ -24,9 +24,7 @@ A beginner-friendly Python project that calculates a student's total marks, aver
 
 ## 📸 Screenshot
 
-```markdown
 ![Student Result System Demo](student-result-demo.png)
-```
 
 ## 📋 Grading Criteria
 
