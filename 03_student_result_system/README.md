@@ -24,8 +24,6 @@ A beginner-friendly Python project that calculates a student's total marks, aver
 
 ## 📸 Screenshot
 
-> Save a screenshot of your program as **`student-result-demo.png`** in the same folder as your `README.md`.
-
 ```markdown
 ![Student Result System Demo](student-result-demo.png)
 ```
