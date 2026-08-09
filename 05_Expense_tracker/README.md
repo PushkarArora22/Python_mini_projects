@@ -41,5 +41,5 @@ python expense_tracker.py
 
 ## Screenshot
 
-`![Expense Tracker Screenshot](expense_tracker.png)`
+`![Expense Tracker Screenshot](./expense_tracker.png)`
 
