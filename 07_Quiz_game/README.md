@@ -11,10 +11,6 @@ A simple terminal-based quiz game built with Python. The game asks the player fi
 * Accepts lowercase or uppercase answers
 * Simple and beginner-friendly terminal interface
 
-## 📸 Screenshot
-
-![Quiz Game Screenshot](quiz_game.png)
-
 ## 🛠️ Technologies Used
 
 * Python 3
