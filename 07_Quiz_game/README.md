@@ -7,7 +7,6 @@ A simple terminal-based quiz game built with Python. The game asks the player fi
 * 5 multiple-choice questions
 * Automatic answer checking
 * Score tracking
-* Percentage calculation
 * Accepts lowercase or uppercase answers
 * Simple and beginner-friendly terminal interface
 
@@ -38,12 +37,8 @@ C. Uranus
 D. Neptune
 
 Enter your answer: B
-Correct!
 
-========================
 Score: 5/5
-Percentage: 100%
-========================
 ```
 
 ## 📚 Concepts Practiced
