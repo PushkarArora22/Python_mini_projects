@@ -43,7 +43,9 @@ Product added successfully.
 ```
 ## How to Run
 Make sure Python is installed on your system.
+
 Clone the repository or download the project files.
+
 Run:
 ```bash
 python inventory_management.py
