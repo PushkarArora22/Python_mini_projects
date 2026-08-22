@@ -22,7 +22,7 @@ Users can add products, view inventory, search for products, update stock levels
 
 ## Example
 
-text
+```text
 === Inventory Management System ===
 1. Add Product
 2. View Inventory
@@ -40,13 +40,10 @@ Enter product price: 1200
 Enter quantity: 5
 
 Product added successfully.
-
+```
 ## How to Run
-
 Make sure Python is installed on your system.
-
 Clone the repository or download the project files.
-
 Run:
-
+```bash
 python inventory_management.py
