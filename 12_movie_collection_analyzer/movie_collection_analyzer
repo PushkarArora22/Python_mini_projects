@@ -1,0 +1,127 @@
+def add_movie(movies):
+    movie = input("Enter movie name: ").strip()
+
+    if not movie:
+        print("Movie name cannot be empty.\n")
+        return
+
+    if movie.lower() in [m.lower() for m in movies]:
+        print("This movie is already in your collection.\n")
+        return
+
+    movies.append(movie)
+    print(f'"{movie}" added successfully.\n')
+
+
+def view_movies(movies):
+    if not movies:
+        print("\nYour movie collection is empty.\n")
+        return
+
+    print("\n--- Your Movie Collection ---")
+
+    for i, movie in enumerate(movies, start=1):
+        print(f"{i}. {movie}")
+
+    print()
+
+
+def search_movie(movies):
+    movie = input("Enter movie name to search: ").strip()
+
+    if movie.lower() in [m.lower() for m in movies]:
+        print(f'"{movie}" is in your collection.\n')
+    else:
+        print(f'"{movie}" was not found in your collection.\n')
+
+
+def remove_movie(movies):
+    movie = input("Enter movie name to remove: ").strip()
+
+    for existing_movie in movies:
+        if existing_movie.lower() == movie.lower():
+            movies.remove(existing_movie)
+            print(f'"{existing_movie}" removed successfully.\n')
+            return
+
+    print("Movie not found.\n")
+
+
+def sort_movies(movies):
+    if not movies:
+        print("\nYour movie collection is empty.\n")
+        return
+
+    movies.sort(key=str.lower)
+    print("Movies sorted alphabetically.\n")
+
+
+def view_reverse(movies):
+    if not movies:
+        print("\nYour movie collection is empty.\n")
+        return
+
+    print("\n--- Movies in Reverse Order ---")
+
+    reversed_movies = movies.copy()
+    reversed_movies.reverse()
+
+    for movie in reversed_movies:
+        print(movie)
+
+    print()
+
+
+def show_statistics(movies):
+    print("\n--- Collection Statistics ---")
+    print(f"Total movies: {len(movies)}")
+
+    if movies:
+        longest_movie = max(movies, key=len)
+        shortest_movie = min(movies, key=len)
+
+        print(f"Longest title: {longest_movie}")
+        print(f"Shortest title: {shortest_movie}")
+
+    print()
+
+
+def main():
+    movies = []
+
+    while True:
+        print("=== Movie Collection Analyzer ===")
+        print("1. Add Movie")
+        print("2. View Movies")
+        print("3. Search Movie")
+        print("4. Remove Movie")
+        print("5. Sort Movies Alphabetically")
+        print("6. View Movies in Reverse")
+        print("7. Show Collection Statistics")
+        print("8. Exit")
+
+        choice = input("\nChoose an option (1-8): ").strip()
+
+        if choice == "1":
+            add_movie(movies)
+        elif choice == "2":
+            view_movies(movies)
+        elif choice == "3":
+            search_movie(movies)
+        elif choice == "4":
+            remove_movie(movies)
+        elif choice == "5":
+            sort_movies(movies)
+        elif choice == "6":
+            view_reverse(movies)
+        elif choice == "7":
+            show_statistics(movies)
+        elif choice == "8":
+            print("\nThanks for using Movie Collection Analyzer. Goodbye! 🎬")
+            break
+        else:
+            print("Invalid choice. Please enter a number from 1 to 8.\n")
+
+
+if __name__ == "__main__":
+    main()
