@@ -38,7 +38,7 @@ Enter movie name: Interstellar
 
 "Interstellar" added successfully.
 ```
-##🚀 How to Run
+## 🚀 How to Run
 
 Make sure Python is installed on your system.
 
