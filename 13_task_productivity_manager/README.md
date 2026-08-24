@@ -44,16 +44,15 @@ git clone https://github.com/your-username/your-repository-name.git
 ### 2. Navigate to the project directory
 
 ```bash
-cd your-repository-name
+cd 13_task_productivity_manager
 ```
 
 ### 3. Run the program
 
 ```bash
-python filename.py
+python task_productivity_manager.py
 ```
 
-> Replace `your-username`, `your-repository-name`, and `filename.py` with your actual GitHub username, repository name, and Python filename.
 
 ## 🧠 Concepts Used
 
