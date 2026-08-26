@@ -1,19 +1,20 @@
 # 🎯 Number Guessing Tournament
 
-A fun command-line game built with Python where the player tries to guess a randomly generated number within a limited number of attempts.
+A fun command-line game built with Python where the player tries to guess a randomly generated number between 1 and 100.
 
 The game provides hints after each incorrect guess and tracks the player's performance across multiple rounds.
 
 ## 🚀 Features
 
-- 🎲 Random number generation
-- 🔢 Number guessing between a selected range
-- ⬆️ Hints when the guess is too low
-- ⬇️ Hints when the guess is too high
-- 🔄 Multiple rounds
-- 📊 Track attempts and overall performance
-- 🏆 Display tournament results
-- ⚠️ Handle invalid user input
+- 🎲 Generates a random number between 1 and 100
+- 🔢 Allows the player to keep guessing until they find the correct number
+- ⬆️ Gives a hint when the guess is too low
+- ⬇️ Gives a hint when the guess is too high
+- 🔄 Supports multiple rounds
+- 🔢 Counts the number of attempts in each round
+- 📊 Displays tournament statistics
+- 🏆 Shows the best round with the fewest attempts
+- ⚠️ Handles invalid input
 
 ## ▶️ How to Run
 
@@ -39,12 +40,32 @@ python filename.py
 
 ## 🎮 How to Play
 
-1. The program generates a random secret number.
-2. Enter your guess.
+1. The program generates a random secret number between 1 and 100.
+2. Enter a number as your guess.
 3. The program tells you whether your guess is too high or too low.
 4. Keep guessing until you find the correct number.
-5. Your number of attempts is recorded.
-6. Play multiple rounds and view your final tournament statistics.
+5. Your number of attempts is recorded for that round.
+6. Choose whether you want to play another round.
+7. When you finish playing, the program displays your tournament statistics.
+
+## 📊 Tournament Statistics
+
+At the end of the game, the program displays:
+
+- Total rounds played
+- Total attempts
+- Average attempts per round
+- Best round with the fewest attempts
+
+### Example
+
+```text
+=== Tournament Results ===
+Rounds played: 3
+Total attempts: 12
+Average attempts per round: 4.0
+Best round: 3 attempts
+```
 
 ## 🧠 Concepts Used
 
@@ -59,29 +80,20 @@ This project practices several Python fundamentals:
 - Counters
 - Exception handling with `try` and `except`
 - The `random` module
-- Calculations and basic statistics
-
-## 📊 Example Results
-
-At the end of the tournament, the program can display statistics such as:
-
-```text
-Rounds played: 3
-Total attempts: 12
-Average attempts per round: 4.0
-Best round: 3 attempts
-```
+- Loops and calculations
 
 ## 📚 Learning Goals
 
-Through this project, I aim to practice:
+Through this project, I practiced:
 
-- Building a game using Python
-- Controlling program flow with loops and conditions
+- Building an interactive command-line game
+- Using loops to control program flow
 - Tracking information across multiple rounds
-- Handling user input safely
-- Breaking a larger program into smaller functions
-- Working with random values and basic calculations
+- Storing and processing data in lists
+- Handling invalid user input
+- Breaking a program into smaller functions
+- Generating random values
+- Calculating basic statistics
 
 ---
 
