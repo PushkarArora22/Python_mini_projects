@@ -1,4 +1,4 @@
-# 🎯 Number Guessing Tournament
+# 🎯 Number Guessing Tournamentb
 
 A fun command-line game built with Python where the player tries to guess a randomly generated number between 1 and 100.
 
