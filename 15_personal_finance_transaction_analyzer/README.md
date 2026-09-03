@@ -1,156 +1,90 @@
-# Personal Finance Transaction Analyzer
+# Personal Finance Analyzer
 
-A command-line Python application for recording and analyzing personal financial transactions.
-
-The program allows users to add income and expense transactions, view and filter transaction records, calculate financial statistics, analyze spending by category, and generate a complete financial summary.
+A simple Python-based personal finance analyzer that allows users to record, view, filter, and analyze their income and expenses.
 
 ## Features
 
-* Add new transactions
-* Record both income and expenses
-* View all transactions
+* Add income and expense transactions
+* View all recorded transactions
 * Filter transactions by:
 
   * Category
   * Transaction type
-* Calculate:
+* Calculate financial statistics:
 
   * Total income
   * Total expenses
   * Current balance
-* Find the largest expense
-* Calculate spending by category
-* Find the highest-spending category
-* Generate a complete financial summary
-* Validate user input using exception handling
+  * Largest expense
+* Calculate total spending for a selected category
+* Find the category with the highest total spending
+* Generate a financial summary
 
-## Transaction Structure
+## How It Works
 
-Each transaction stores information such as:
+Each transaction is stored as a dictionary inside a list.
 
-* Description
-* Category
-* Transaction type
-* Amount
-
-Example:
+A transaction contains:
 
 ```python
 {
-    "description": "Rent",
-    "category": "Housing",
+    "description": "Groceries",
+    "category": "Food",
     "type": "expense",
-    "amount": 12000
+    "amount": 500
 }
 ```
 
-Multiple transactions are stored in a list of dictionaries.
+The program then uses functions, loops, conditions, lists, and dictionaries to process and analyze the transactions.
 
-```python
-transactions = [
-    {
-        "description": "Salary",
-        "category": "Income",
-        "type": "income",
-        "amount": 45000
-    },
-    {
-        "description": "Rent",
-        "category": "Housing",
-        "type": "expense",
-        "amount": 12000
-    }
-]
-```
+## Technologies Used
 
-## Planned Functions
-
-The project will include functions responsible for:
-
-* Adding transactions
-* Viewing transactions
-* Filtering transactions
-* Calculating financial statistics
-* Calculating spending by category
-* Finding the highest-spending category
-* Displaying a financial summary
-
-## Example Summary
-
-```text
-========== FINANCIAL SUMMARY ==========
-
-Total income: ₹45,000
-Total expenses: ₹21,500
-Current balance: ₹23,500
-
-Largest expense:
-Rent -> ₹12,000
-
-Spending by category:
-Housing -> ₹12,000
-Food -> ₹4,500
-Travel -> ₹3,000
-Shopping -> ₹2,000
-
-Highest spending category:
-Housing
-```
-
-## Python Concepts Used
-
-This project combines several Python fundamentals:
-
-* Variables
-* Strings
+* Python 3
 * Lists
 * Dictionaries
-* Tuples
-* Nested data structures
-* `for` loops
-* `while` loops
+* Loops
 * Conditional statements
 * Functions
-* Function return values
-* `try` / `except`
-* `break` and `continue`
-* String methods
-* Dictionary methods
-* List methods
-* `sum()`
-* `len()`
-* Searching and filtering data
-* Basic calculations
-
-## Learning Goals
-
-The purpose of this project is to practice combining multiple Python concepts in one larger program.
-
-It focuses on:
-
-* Designing a program before writing code
-* Choosing suitable data structures
-* Breaking a larger problem into functions
-* Working with lists of dictionaries
-* Filtering and analyzing structured data
-* Avoiding unnecessary repeated code
-* Writing readable and maintainable Python
 
 ## How to Run
 
-1. Make sure Python is installed on your computer.
+1. Make sure Python 3 is installed.
 2. Download or clone this repository.
-3. Open a terminal in the project folder.
+3. Open the project folder in a terminal.
 4. Run:
 
 ```bash
-python finance_transaction_analyzer.py
+python personal_finance_analyzer.py
 ```
 
-5. Follow the menu instructions displayed in the terminal.
+## Example
 
-## Project Status
+```text
+========== PERSONAL FINANCE ANALYZER ==========
 
-🚧 Currently under development.
+1. Add transaction
+2. View transactions
+3. Filter transactions
+4. Financial statistics
+5. Spending by category
+6. Highest spending category
+7. Financial summary
+8. Exit
+```
 
-The project is being built step by step as part of Python fundamentals practice.
+## Project Purpose
+
+This project was created to practice Python fundamentals by combining multiple concepts into a single practical application. It focuses on working with lists and dictionaries, looping through data, creating functions, filtering information, and performing basic financial calculations.
+
+## Future Improvements
+
+* Better input validation
+* More formatted transaction output
+* Ability to edit or delete transactions
+* Saving transactions to a file
+* Loading previously saved transactions
+* More detailed financial reports
+
+## Author
+
+**Pushkar Arora**
