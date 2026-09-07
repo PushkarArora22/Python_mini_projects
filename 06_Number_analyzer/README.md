@@ -1,4 +1,4 @@
-# 🔢 Number Analyzer
+# 🔢 Number Analyzep
 
 A simple Python program that analyzes the digits of a given number.
 
