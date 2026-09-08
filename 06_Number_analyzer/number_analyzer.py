@@ -1,4 +1,4 @@
-def main():
+def main():abc
     n=int(input("Enter a number"))
 
     if n == 0:
