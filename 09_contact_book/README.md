@@ -1,4 +1,4 @@
-# Contact Book abcd
+# Contact Book
 
 A simple command-line contact management application built with Python.
 
