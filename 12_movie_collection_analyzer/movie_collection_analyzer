@@ -1,4 +1,4 @@
-def add_movie(movies): abcdefghijklmnopqrsruvwxyz
+def add_movie(movies):
     movie = input("Enter movie name: ").strip()
 
     if not movie:
