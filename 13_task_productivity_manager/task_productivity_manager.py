@@ -4,7 +4,7 @@ def main():
             print("=== Personal Task & Productivity Manager ===")
             print("1. Add Task")
             print("2. View All Tasks")
-            print("3. Search Tasks")abshvjksbfke,fz
+            print("3. Search Tasks")
             print("4. Mark Task as Completed")
             print("5. Remove Task")
             print("6. Filter Tasks")
