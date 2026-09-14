@@ -8,7 +8,7 @@ def checker(password):
     for i in password:
         if i.isupper():
             has_upper=True
-        if i.isdigit():fdfgszdfg
+        if i.isdigit():
             has_digit=True
     if len(password)>=8 and has_upper==True and has_digit==True:
         return "Strong"
