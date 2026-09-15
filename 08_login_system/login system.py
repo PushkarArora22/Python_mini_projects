@@ -1,7 +1,7 @@
 import sys
 
 
-def register():abcd
+def register():
     global saved_username,saved_password
 
     username=input("Enter Username")
