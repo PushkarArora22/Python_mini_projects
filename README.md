@@ -6,7 +6,7 @@ These projects focus on strengthening programming fundamentals, problem-solving,
 
 ---
 
-## 📂 Projects43686
+## 📂 Projects
 
 ### 1. 🧮 Mini Calculator
 A command-line calculator supporting:
