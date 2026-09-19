@@ -1,5 +1,5 @@
 def main():
-    a=int(input("Enter first number:- "))56
+    a=int(input("Enter first number:- "))
     b=int(input("Enter second number:- "))
     c=input("Enter operator(+,-,*,/):- ")
     print(f"Answer of {a} {c} {b} = {calculator(a,b,c)}")
