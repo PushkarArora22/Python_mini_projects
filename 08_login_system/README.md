@@ -1,6 +1,6 @@
 # 🔐 Python Login System
 
-A simple command-line login system built with Pyfsdfthon. The project allows users to register an account, confirm their password, and log in using their saved credentials.
+A simple command-line login system built with Python. The project allows users to register an account, confirm their password, and log in using their saved credentials.
 
 ## 🚀 Features
 
