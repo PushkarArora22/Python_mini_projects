@@ -4,7 +4,7 @@ def add_contact(contacts):
     while True:
         phone = input("Enter phone number: ").strip()
 
-        if phone.isdigit():ghhgh
+        if phone.isdigit():
             break
 
         print("Please enter a valid phone number.")
