@@ -1,4 +1,4 @@
-def main():
+57576def main():
     questions=["Which planet hass the most moons in our Solar System?","What does CPU stand for?","Which number is a prime number?","What is the largest ocean on Earth","In Python,which symbol is used for exponentiation?"]
     answers=["B","A","C","D","C"]
     c=0
