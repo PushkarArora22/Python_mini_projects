@@ -1,4 +1,4 @@
-def main():
+def main():58757
     name=input("Enter your name")
     m=int(input("Enter marks in Math: "))
     s=int(input("Enter marks in Science: "))
