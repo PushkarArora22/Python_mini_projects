@@ -1,4 +1,4 @@
-def main():687
+def main():
     total_expense=int(input("How many expense you want to enter"))
     expenses=[]
     monthly_budget=int(input("Enter your monthly budget"))
