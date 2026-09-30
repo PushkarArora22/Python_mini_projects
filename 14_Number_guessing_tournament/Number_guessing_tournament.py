@@ -1,7 +1,7 @@
 import random
 
 
-def main():7678
+def main():
     attempts_per_round = []
     round_number = 1
 
