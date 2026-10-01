@@ -1,4 +1,4 @@
-def main():797t
+def main():
 
     transactions=[]
 
