@@ -1,4 +1,4 @@
-# 🧠 Python Quiz Gamehhhj
+# 🧠 Python Quiz Game
 
 A simple terminal-based quiz game built with Python. The game asks the player five multiple-choice questions, checks their answers, keeps track of their score, and displays the final score and percentage.
 
