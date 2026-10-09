@@ -1,5 +1,5 @@
 # Python Mini Calculator
-agsdfg
+
 A simple command-line calculator built with Python.
 
 ## Features
