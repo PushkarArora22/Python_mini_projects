@@ -1,5 +1,5 @@
 def add_movie(movies):
-    movie = input("Enter movie name: ").strip()sdfsdjf
+    movie = input("Enter movie name: ").strip()
 
     if not movie:
         print("Movie name cannot be empty.\n")
