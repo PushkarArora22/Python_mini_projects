@@ -2,7 +2,7 @@ def add_product(inventory):
     name = input("Enter product name: ").strip()
 
     while True:
-        try:
+        try:fddf
             price = float(input("Enter product price: "))
             quantity = int(input("Enter quantity: "))
 
