@@ -1,4 +1,4 @@
-# Personal Finance Analyzerigiuh
+# Personal Finance Analyzer
 
 A simple Python-based personal finance analyzer that allows users to record, view, filter, and analyze their income and expenses.
 
