@@ -1,4 +1,4 @@
-# Inventory Management System hfuf
+# Inventory Management System
 
 A Python command-line inventory management system for tracking products, stock levels, prices, and inventory value.
 
