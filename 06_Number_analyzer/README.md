@@ -1,5 +1,5 @@
 # 🔢 Number Analyzer
-
+hgkg
 A simple Python program that analyzes the digits of a given number.
 
 The program calculates:
