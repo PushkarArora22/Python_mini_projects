@@ -1,4 +1,4 @@
-xc# Text Analyzer 📝
+# Text Analyzer 📝
 
 A command-line Python program that analyzes a sentence and provides useful information about it.
 
