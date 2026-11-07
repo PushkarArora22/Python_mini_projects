@@ -1,4 +1,4 @@
-fjh# Python Mini Calculator
+# Python Mini Calculator
 
 A simple command-line calculator built with Python.
 
