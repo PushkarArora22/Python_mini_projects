@@ -1,4 +1,4 @@
-jhhdef main():
+def main():
     a=input("Enter a sentence")
     print(f"Total Characters: {count_characters(a)}")
     print(f"Total Words: {count_words(a)}")
