@@ -11,7 +11,7 @@ This project checks whether a password satisfies three basic requirements:
 * At least **one digit**
 
 If all three requirements are met, the program returns **Strong**. Otherwise, it returns **Weak**.
-dfsdf
+
 This project was built as part of my Python practice while learning programming fundamentals.
 
 ## 🛠️ Concepts Used
