@@ -1,4 +1,4 @@
-kk# 🎓 Student Result System
+# 🎓 Student Result System
 
 A beginner-friendly Python project that calculates a student's total marks, average, grade, and pass/fail status based on marks entered for three subjects.
 
