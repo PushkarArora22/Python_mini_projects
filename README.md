@@ -3,7 +3,7 @@
 A growing collection of Python mini projects built while learning Python.
 
 These projects focus on strengthening programming fundamentals, problem-solving, and writing clean, organized code.
-nb
+
 ---
 
 ## 📂 Projects
