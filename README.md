@@ -1,4 +1,4 @@
-# Python Mini Projects 🐍
+fs# Python Mini Projects 🐍
 
 A growing collection of Python mini projects built while learning Python.
 
